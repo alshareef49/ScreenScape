@@ -25,7 +25,7 @@ public class ScreenScapeApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 //		getAllMovies();
-		addMovie();
+//		addMovie();
 	}
 	void getAllMovies(){
 		try{
