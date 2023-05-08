@@ -44,17 +44,4 @@ public class MovieServiceImpl implements MovieService{
         movieRepository.save(movie);
         return movie.getMovieId();
     }
-
-    public List<MovieDTO> getAllMovies(String movieName) {
-        Iterable<Movie> list = movieRepository.findByMovieName(movieName);
-        List<MovieDTO> listDtos = new ArrayList<>();
-        list.forEach(m->{
-            MovieDTO movie = new MovieDTO();
-            movie.setMovieId(m.getMovieId());
-
-            listDtos.add()
-        });
-        
-
-    }
 }
