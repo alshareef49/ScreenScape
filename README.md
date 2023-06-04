@@ -10,4 +10,5 @@ Users can select a movie, choose a theater, and view show details before proceed
 - Movie and theater selection
 - Show details and seat availability
 - Transaction processing
-- Booking history view
+- Booking history view  
+- Find me
